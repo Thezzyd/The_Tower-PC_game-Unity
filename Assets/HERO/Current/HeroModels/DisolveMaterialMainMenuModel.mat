@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DisolveMaterialMainMenuModel
+  m_Shader: {fileID: -6465566751694194690, guid: f7e893ac710729a49845585f65b06c42,
+    type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Emission:
+        m_Texture: {fileID: 2800000, guid: f60504e3b5004b14fae7843a2d168428, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: -274102887701753754, guid: 8423578e60104aa48a1047172b2a2fec,
+          type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Fade: 1
+    - _Scale: 33.3
+    m_Colors:
+    - Color_6B816378: {r: 2.6474984, g: 2.6474984, b: 2.6474984, a: 1}
+    - Color_71B81134: {r: 9.082411, g: 2.187387, b: 1.283901, a: 0}
+    - _GlowColor: {r: 7.9668407, g: 1.3152801, b: 1.3152801, a: 0}
+  m_BuildTextureStacks: []

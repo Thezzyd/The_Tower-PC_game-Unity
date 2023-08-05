@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - killTrigger
+  - WALL
+  - ENEMY
+  - PLAYER
+  - LEFTWALL
+  - RIGHTWALL
+  - GROUND
+  - STAR
+  - AttackHero6
+  - RunningEffect
+  - JumpingEffect
+  - PowerBar
+  - UpgradeBtn
+  - PlayerModel
+  - VolumeSlider
+  - DecorationLeftSpawnPoint
+  - DecorationRightSpawnPoint
+  - Platform_1_0
+  - Platform_1_5
+  - Platform_2_0
+  - Platform_2_5
+  - Platform_3_0
+  - Platform_4_0
+  - Platform_5_0
+  - Platform_6_0
+  - EssenceOrbX1
+  - EssenceOrbX2
+  - EssenceOrbX3
+  - ChestNormal
+  - ChestSmall
+  - ChestBig
+  - medusaOrb
+  - CANONBULLET
+  - CANON
+  - CoinCollector
+  - PODSTAWA_FIND_CANON
+  - AttackHero1
+  - AttackHero2
+  - AttackHero3
+  - AttackHero4
+  - AttackHero5
+  - NotHarmfull
+  - LeftEdge
+  - RightEdge
+  - SpazzLight
+  - LightingHERO4
+  - InventoryCanvas
+  - MIECZ
+  - POCISK
+  - EnemyPortal
+  - EnemyProjectile
+  - EnemyHangingSpider
+  - StartingPlatform
+  - Destroyer
+  - SfxVolume
+  - MusicVolume
+  - EnemyNormalSpider
+  - EnemyBabySpider
+  - EnemyBigSpider
+  - EnemyEggSpider
+  - EnemyBat
+  - EnemySkeletalDragon
+  - BabySpider
+  - EnemyJumpingSpider
+  - JumpingSpider
+  - EnemyFirefly
+  - ScoreboardContent
+  - RegistrationTextLogs
+  - LoginTextLogs
+  - ResetPasswordTextLogs
+  - NoConnectionTextLogs
+  - EnemyTentacleWorm
+  - EnemyTentacleWormProjectile
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - CoinCollector
+  - Destroyer
+  - 
+  - Miecz
+  - DragonGhostLayer
+  - BoomerangHero6
+  - 
+  - 
+  - ENEMY
+  - Wall
+  - 
+  - POCISK
+  - COIN
+  - EnemyEgg
+  - DragonFireball
+  - WebString
+  - Hero
+  - 
+  - 
+  - 
+  - ENEMY_TRIGGER
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Wall
+    uniqueID: 2679108779
+    locked: 0
+  - name: quad
+    uniqueID: 2919081253
+    locked: 0
+  - name: UI
+    uniqueID: 4059804979
+    locked: 0
+  - name: PS_MENU
+    uniqueID: 1458113903
+    locked: 0
