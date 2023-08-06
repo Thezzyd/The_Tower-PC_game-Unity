@@ -41,5 +41,5 @@ Material:
     m_Ints: []
     m_Floats: []
     m_Colors:
-    - _SpriteColor: {r: 0.6039, g: 0.5906, b: 0.0901, a: 1}
+    - _SpriteColor: {r: 0.0901, g: 0.5372, b: 0.6039, a: 1}
   m_BuildTextureStacks: []

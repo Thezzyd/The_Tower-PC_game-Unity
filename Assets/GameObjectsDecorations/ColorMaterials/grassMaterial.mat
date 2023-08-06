@@ -46,5 +46,5 @@ Material:
     - _WindSpeed: 1.84
     m_Colors:
     - Vector2_11623FB9: {r: 5, g: 2, b: 0, a: 0}
-    - _SpriteColor: {r: 0.6039, g: 0.5906, b: 0.0901, a: 1}
+    - _SpriteColor: {r: 0.0901, g: 0.5372, b: 0.6039, a: 1}
   m_BuildTextureStacks: []

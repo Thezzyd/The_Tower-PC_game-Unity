@@ -61,7 +61,7 @@ Material:
     - Color_71B81134: {r: 59.714115, g: 3.7388022, b: 2.535032, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _GlowColor: {r: 40.208195, g: 41.311302, b: 11.858384, a: 0}
+    - _GlowColor: {r: 3.7032826, g: 43.257496, b: 59.016148, a: 0}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
     - _TintColor: {r: 0.4245283, g: 0.42252582, b: 0.42252582, a: 0.5176471}
   m_BuildTextureStacks: []

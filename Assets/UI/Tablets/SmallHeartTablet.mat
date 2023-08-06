@@ -61,6 +61,6 @@ Material:
     - _Color: {r: 0.843, g: 0.22, b: 0.23, a: 1}
     - _EmissionColor: {r: 0.165, g: 0.51, b: 0.68, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _GlowColor: {r: 16, g: 15.44, b: 6.592, a: 1}
+    - _GlowColor: {r: 4.576, g: 8.896, b: 13.92, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

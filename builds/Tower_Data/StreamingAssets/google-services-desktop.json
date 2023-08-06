@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "61711560980",
+    "firebase_url": "https://the-tower-9bf24-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "the-tower-9bf24",
+    "storage_bucket": "the-tower-9bf24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61711560980:android:b44e31b44746cb66531201",
+        "android_client_info": {
+          "package_name": "com.DarkLight.TheTower"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61711560980-i50on3qhhrh6jf3rlti50ejr45ac64gi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJ5pm5XljP8MQ5k4DNbWx-L1eypY1qBTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61711560980-i50on3qhhrh6jf3rlti50ejr45ac64gi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
