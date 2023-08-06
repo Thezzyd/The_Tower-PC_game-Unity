@@ -46,7 +46,7 @@ Przy projektowaniu aplikacji bardzo ważnym elementem jest określenie potrzeb f
 * opcja wyświetlenia tablicy najlepszych wyników, gdzie będziemy mieli możliwość podglądu, którzy gracze zajmują jakie miejsca w globalnym rankingu, wraz z informacją, jakie miejsce zajmuje zalogowany gracz,
 * możliwość wyboru mapy do prowadzenia rozgrywki (na potrzeby projektu zostanie zrealizowana tylko jedna).
 
-## Założenia funkcjonalne
+## Założenia pozafunkcjonalne
 * działanie aplikacji na urządzeniach z systemem Windows 7 lub nowszym,
 * nomenklatura stosowana przy deklaracji nazw klas, funkcji, zmiennych itd. wyrażana jest w języku angielskim, jak i sama aplikacja będzie w angielskiej wersji językowej,
 * aplikacja budowana na silniku Unity 2D z wykorzystaniem wewnętrznych narzędzi do animacji oraz tworzenia efektów wizualnych,
@@ -125,7 +125,7 @@ Z poziomu widoku opcji mamy takie możliwości, jak:
 * podgląd zdobytych osiągnięć przez zalogowanego użytkownika z poziomu zakładki „Compare Achievements”,
 * podgląd tablicy najlepszych wyników z poziomu zakładki „Scoreboard”. W tablicy przedstawione są najlepsze gry wszystkich z graczy pod kątem zebranych punktów podczas rozgrywki, uszeregowane od najlepszych do najgorszych.
 
-![UI_screen - 5](/UI_screens/statistics_1.png)
+![UI_screen - 5](/UI_screens/menu_statistics_1.png)
 
 #### Widok wyboru mapy
 Z poziomu widoku wyboru mapy mamy takie możliwości, jak:
