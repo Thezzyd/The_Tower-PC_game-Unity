@@ -6,12 +6,12 @@ Celem jest zaprojektowanie i implementacja gry komputerowej 2D z kategorii gier 
 ## Organizacja pracy
 Praca nad projektem, który wymaga wykonania wielu różnych czynności w drodze do otrzymania produktu finalnego tak, aby aplikacja działała poprawnie i była spójna z całością, potrzebuje zaplanowania, jakie elementy pracy i w jakiej kolejności będą realizowane po sobie. W celu zachowania porządku i optymalnego wykorzystania czasu został zaplanowany schemat obrazujący organizację pracy nad projektem
 
-![workflow-diagram](/diagrams/workflow.PNG)
+![workflow-diagram](/diagrams/workflow.png)
 
 ## Założenia funkcjonalne
 Przy projektowaniu aplikacji bardzo ważnym elementem jest określenie potrzeb funkcjonalnych, jakie tworzone oprogramowanie ma realizować. Ułatwia to zobrazowanie usług, jakie są widoczne z zewnątrz systemu
 
-![use_case-diagram](/diagrams/use_case.PNG)
+![use_case-diagram](/diagrams/use_case.png)
 
 ### Funkcjonalności i mechaniki podczas rozgrywki:
 * sterowanie i interakcja z aplikacją za pomocą klawiatury i myszy,
@@ -60,14 +60,14 @@ Przy projektowaniu aplikacji bardzo ważnym elementem jest określenie potrzeb f
 ## Struktura danych
 Bardzo ważnym elementem każdego projektu, który korzysta z rozwiązań bazodanowych jest dobrze przemyślana struktura danych tak, aby wszystkie tworzone zapytania były maksymalnie zoptymalizowane, biorąc pod uwagę nasze zasoby, potrzeby i cel. W tworzonym projekcie baza danych opiera się na obiektowym formacie przechowywania informacji, jest to rodzaj bazy danych określanej, jako NoSQL. Tworząc bazę danych, korzystając z rozwiązań dostawcy Firebase, najważniejszymi aspektami jest, aby cechowała się ona jak najmniejszą liczbą potrzebnych do wykonania zapytań oraz projektowanie struktury w taki sposób, żeby nie obciążać zapytań złożonymi funkcjami agregującymi. 
 
-![data_structure-diagram](/diagrams/data_structure.PNG)
+![data_structure-diagram](/diagrams/data_structure.png)
 
 W tworzonej aplikacji zostały wdrożone cztery główne kolekcje danych – kolekcja danych użytkownika, kolekcja danych z przeprowadzonych rozgrywek, kolekcja najlepszych wyników graczy i ostatnia z odblokowanymi osiągnięciami przez poszczególnych graczy.
 
 ## Przepływ aktywności
 Kolejną ważną czynnością, jaką możemy wykonać przy projektowaniu pracy jest przemyślenie i zamodelowanie przepływu czynności naszej aplikacji. Możemy go przedstawić za pomocą graficznego diagramu. Służy on głównie do modelowania dynamicznych aspektów systemu oraz do przedstawienia sekwencji kroków-czynności, które są wykonywane przez opisywany fragment systemu.
 
-![activity-diagram](/diagrams/activity_diagram.PNG)
+![activity-diagram](/diagrams/activity_diagram.png)
 
 Po uruchomieniu aplikacji pierwszą czynnością, aby móc przejść do następnego kroku w drodze do rozegrania gry jest konieczność zalogowania się do systemu na istniejące konto lub jeżeli go nie posiadamy musimy je utworzyć. Poza naszym wzrokiem system dokona procesu autentykacji oraz autoryzacji i pobierze z bazy danych wszystkie potrzebne informacje o zalogowanym graczu. Po sukcesywnym przejściu procesu logowania będziemy mogli przejść do wyboru mapy rozgrywki, po zatwierdzeniu wyboru rozgrywka się rozpocznie. System w momencie zmiany wartości zebranego doświadczenia będzie przesyłał zaktualizowane dane do bazy danych, gdzie przy każdej próbie wysyłania i odbierania danych, system sprawdzi reguły dostępu do konkretnych zasobów i zostaniemy przepuszczeni albo w razie jakichś nieprawidłowości system nie zrealizuje danego żądania. W momencie, gdy kończymy rozgrywkę nasz ostateczny wynik ląduje w bazie danych, a użytkownik decyduje, czy chce ponowić rozgrywkę lub opuszcza aplikację.
 
@@ -77,7 +77,7 @@ Za pomocą diagramu wdrożenia można zaplanować, z jakich komponentów będzie
 * Firebase Realtime DB – baza danych typu NoSQL, która będzie odpowiedzialna za bezpieczne przechowywanie wszystkich danych,
 * Firebase Authentication – zapewnia zestaw usług back-endowych, skupiając się na procesie autentykacji użytkowników logujących się do systemu.
 
-![deployment-diagram](/diagrams/deployment.PNG)
+![deployment-diagram](/diagrams/deployment.png)
 
 ## Interfejs użytkownika
 Aplikacje budowane z wykorzystaniem silnika Unity złożone są ze scen. Sceny składają się ze środowiska gry oraz interfejsu użytkownika. Są one zbiorem ułożonych w hierarchii obiektów gry, które reprezentują poszczególne elementy tworzonego projektu np. pole tekstowe, grafika drzewa z nałożoną animacją, czy efekt wizualny imitujący świetliki na niebie. Tworzona gra wideo w obecnej formie składa się z dwóch scen.
@@ -91,7 +91,7 @@ W tym widoku mamy takie dostępne możliwości, jak:
 * przejście do widoku rejestracji, klikając w przycisk „Registration screen”, 
 * wyłączenie aplikacji za pomocą kliknięcia w przycisk „Quit”.
 
-![UI_screen - 1](/UI_screens/menu_login.PNG)
+![UI_screen - 1](/UI_screens/menu_login.png)
 
 #### Widok rejestracji
 Widok rejestracji udostępnia takie możliwości, jak:
@@ -99,7 +99,7 @@ Widok rejestracji udostępnia takie możliwości, jak:
 * przejście do widoku logowania, klikając w przycisk „Login screen”,
 * wyłączenie aplikacji za pomocą przycisku „Quit”.
 
-![UI_screen - 2](/UI_screens/menu_register.PNG)
+![UI_screen - 2](/UI_screens/menu_register.png)
 
 #### Widok menu
 Z poziomu widoku głównego menu aplikacji mamy takie możliwości, jak:
@@ -108,7 +108,7 @@ Z poziomu widoku głównego menu aplikacji mamy takie możliwości, jak:
 * przejście do widoku statystyk zalogowanego użytkownika za pomocą kliknięcia w przycisk „Statistics”,
 * wyłączenie aplikacji za pomocą przycisku „Quit”.
 
-![UI_screen - 3](/UI_screens/menu_main.PNG)
+![UI_screen - 3](/UI_screens/menu_main.png)
 
 #### Widok opcji ustawień
 Z poziomu widoku opcji mamy takie możliwości, jak:
@@ -116,7 +116,7 @@ Z poziomu widoku opcji mamy takie możliwości, jak:
 * wylogowanie się z obecnie zalogowanego konta użytkownika za pomocą przycisku „Logout”. Po kliknięciu zostaniemy przeniesieni do widoku logowania,
 * przejście z powrotem do widoku głównego menu aplikacji za pomocą przycisku „Back”.
 
-![UI_screen - 4](/UI_screens/menu_options.PNG)
+![UI_screen - 4](/UI_screens/menu_options.png)
 
 #### Widok statystyk
 * podgląd wyników zalogowanego gracza, osiągniętych w rozegranych grach w przeszłości z poziomu zakładki „User Progression”,
@@ -125,14 +125,14 @@ Z poziomu widoku opcji mamy takie możliwości, jak:
 * podgląd zdobytych osiągnięć przez zalogowanego użytkownika z poziomu zakładki „Compare Achievements”,
 * podgląd tablicy najlepszych wyników z poziomu zakładki „Scoreboard”. W tablicy przedstawione są najlepsze gry wszystkich z graczy pod kątem zebranych punktów podczas rozgrywki, uszeregowane od najlepszych do najgorszych.
 
-![UI_screen - 5](/UI_screens/statistics_1.PNG)
+![UI_screen - 5](/UI_screens/statistics_1.png)
 
 #### Widok wyboru mapy
 Z poziomu widoku wyboru mapy mamy takie możliwości, jak:
 * wybór mapy do przeprowadzenia rozgrywki z pośród wszystkich dostępnych. Aby dokonać wyboru należy przeciągnąć za pomocą myszki bloczek reprezentujący wybraną mapę na środek, a następnie w niego kliknąć,
 * przejście z powrotem do widoku głównego menu aplikacji za pomocą przycisku „Return”.
 
-![UI_screen - 6](/UI_screens/menu_map_select.PNG)
+![UI_screen - 6](/UI_screens/menu_map_select.png)
 
 ### Scena rozgrywki
 Druga z dostępnych scen uruchamia się po dokonaniu wyboru mapy do przeprowadzenia rozgrywki, klikając w odpowiedni przycisk na poprzedniej scenie. Składa się ona na widok rozgrywki, wstrzymania rozgrywki, ulepszeń, dostępnych umiejętności oraz podsumowania przeprowadzonej rozgrywki.
@@ -147,7 +147,7 @@ Z poziomu widoku prowadzonej rozgrywki mamy takie możliwości, jak:
 * opcja przejścia do widoku ulepszeń pasywnych umiejętności postaci w grze po kliknięciu przycisku z ikoną umiejętności,
 * opcja przejścia do widoku dostępnych w grze umiejętności walki po kliknięciu w przycisk z ikoną postaci.
 
-![UI_screen - 7](/UI_screens/gameplay.PNG)
+![UI_screen - 7](/UI_screens/gameplay.png)
 
 #### Widok wstrzymania rozgrywki
 Z poziomu widoku wstrzymania rozgrywki mamy takie możliwości, jak:
@@ -156,7 +156,7 @@ Z poziomu widoku wstrzymania rozgrywki mamy takie możliwości, jak:
 * przejście do głównego menu aplikacji po kliknięciu w przycisk „Menu”, co oznacza porzucenie aktualnie prowadzonej rozgrywki bez możliwości późniejszej jej kontynuacji,
 * opcja całkowitego opuszczenia aplikacji po kliknięciu w przycisk „Quit”.
 
-![UI_screen - 8](/UI_screens/gameplay_pause.PNG)
+![UI_screen - 8](/UI_screens/gameplay_pause.png)
 
 #### Widok ulepszeń
 Z poziomu widoku ulepszeń mamy takie możliwości, jak:
@@ -165,14 +165,14 @@ Z poziomu widoku ulepszeń mamy takie możliwości, jak:
 * opcja zresetowania wszystkich aktualnie przypisanych punktów, w celu późniejszej ich alokacji w innych proporcjach,
 * opcja powrotu do widoku rozgrywki, klikając w przycisk z ikoną krzyżyka.
 
-![UI_screen - 9](/UI_screens/gameplay_evolve.PNG)
+![UI_screen - 9](/UI_screens/gameplay_evolve.png)
 
 #### Widok umiejętności
 Z poziomu widoku umiejętności mamy takie możliwości, jak:
 * dokonanie podglądu informacji o poszczególnych wartościach bitewnych każdej z dostępnych umiejętności walki w grze, które są zależne od aktualnego ich poziomu. Aby zmienić widoczną umiejętność należy kliknąć w jeden z przycisków z ikoną strzałki,
 * opcja powrotu do widoku rozgrywki, klikając w przycisk z ikoną krzyżyka.
 
-![UI_screen - 10](/UI_screens/gameplay_skills.PNG)
+![UI_screen - 10](/UI_screens/gameplay_skills.png)
 
 #### Widok podsumowania rozgrywki
 Z poziomu widoku podsumowania rozgrywki mamy takie możliwości, jak:
@@ -181,7 +181,7 @@ Z poziomu widoku podsumowania rozgrywki mamy takie możliwości, jak:
 * opcja ponowienia rozgrywki poprzez kliknięcie w przycisk z ikoną zapętlonej strzałki,
 * opcja przejścia do widoku głównego menu aplikacji po kliknięciu przycisku z ikoną domku.
 
-![UI_screen - 11](/UI_screens/gameplay_game_over.PNG)
+![UI_screen - 11](/UI_screens/gameplay_game_over.png)
 
 ## Wykorzystane technologie
 * Silnik - Unity,
